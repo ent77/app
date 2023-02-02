@@ -196,6 +196,7 @@
                 android:layout_height="62dp"
                 android:layout_weight="1"
                 android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/app_name"
                 android:translationY="40dp"
                 app:srcCompat="@drawable/detail" />
 
@@ -205,7 +206,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="161dp"
         android:orientation="vertical">
 
         <View
@@ -293,6 +294,7 @@
                 android:layout_height="62dp"
                 android:layout_weight="1"
                 android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/app_name"
                 android:translationY="40dp"
                 app:srcCompat="@drawable/detail" />
 
