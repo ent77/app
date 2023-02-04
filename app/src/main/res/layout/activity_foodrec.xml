@@ -126,7 +126,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/我的成就"
+                    android:id="@+id/仰卧起坐"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="熟鸡蛋"

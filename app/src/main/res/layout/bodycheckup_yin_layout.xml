@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D5F0EC"
+        android:orientation="vertical"
+        tools:context=".foodrec">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp">
+
+            <View
+                android:id="@+id/diettitle"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                android:background="@drawable/titlecolour" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="引体向上"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:backgroundTint="#60D1CD"
+                app:srcCompat="@drawable/back" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:translationY="60dp">
+
+                <ImageView
+                    android:id="@+id/photo1"
+                    android:layout_width="18dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:translationX="10sp"
+                    app:srcCompat="@drawable/yin1" />
+
+                <TextView
+                    android:id="@+id/标准俯卧撑"
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:text="标准俯卧撑"
+                    android:textColor="#000000"
+                    android:translationX="10sp"
+                    android:translationY="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:translationY="80dp">
+
+                <ImageView
+                    android:id="@+id/photo2"
+                    android:layout_width="18dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:translationX="10sp"
+                    app:srcCompat="@drawable/yin2" />
+
+                <TextView
+                    android:id="@+id/窄距俯卧撑"
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:text="窄距俯卧撑"
+                    android:textColor="#000000"
+                    android:translationX="10sp"
+                    android:translationY="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:translationY="100dp">
+
+                <ImageView
+                    android:id="@+id/photo3"
+                    android:layout_width="18dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:translationX="10sp"
+                    app:srcCompat="@drawable/yin3" />
+
+                <TextView
+                    android:id="@+id/宽距俯卧撑"
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:text="宽距俯卧撑"
+                    android:textColor="#000000"
+                    android:translationX="10sp"
+                    android:translationY="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

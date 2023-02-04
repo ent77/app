@@ -106,7 +106,7 @@
                     app:srcCompat="@drawable/achievement" />
 
                 <TextView
-                    android:id="@+id/我的成就"
+                    android:id="@+id/仰卧起坐"
                     android:layout_width="224dp"
                     android:layout_height="wrap_content"
                     android:text="我的成就"

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D5F0EC"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="82dp">
+
+                <View
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:background="@drawable/titlecolour" />
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="体测"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:translationX="10dp"
+                    android:translationY="40dp" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:translationY="60dp">
+
+                    <ImageView
+                        android:id="@+id/planphoto"
+                        android:layout_width="18dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:translationX="10sp"
+                        app:srcCompat="@drawable/plan" />
+
+                    <TextView
+                        android:id="@+id/提分计划"
+                        android:layout_width="224dp"
+                        android:layout_height="wrap_content"
+                        android:text="提分计划"
+                        android:textColor="#000000"
+                        android:translationX="10sp"
+                        android:translationY="20sp" />
+
+                    <ImageView
+                        android:id="@+id/planphoto1"
+                        android:layout_width="23dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:scaleX="0.25"
+                        android:scaleY="0.25"
+                        android:translationX="10sp"
+                        app:srcCompat="@drawable/detail" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:translationY="80dp">
+
+                    <ImageView
+                        android:id="@+id/singlephoto"
+                        android:layout_width="18dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:translationX="10sp"
+                        app:srcCompat="@drawable/single" />
+
+                    <TextView
+                        android:id="@+id/单项提升"
+                        android:layout_width="224dp"
+                        android:layout_height="wrap_content"
+                        android:text="单项提升"
+                        android:textColor="#000000"
+                        android:translationX="10sp"
+                        android:translationY="20sp" />
+
+                    <ImageView
+                        android:id="@+id/singlephoto1"
+                        android:layout_width="23dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:scaleX="0.25"
+                        android:scaleY="0.25"
+                        android:translationX="10sp"
+                        app:srcCompat="@drawable/detail" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:translationY="100dp">
+
+                    <ImageView
+                        android:id="@+id/earphoto"
+                        android:layout_width="18dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:translationX="10sp"
+                        app:srcCompat="@drawable/ear" />
+
+                    <TextView
+                        android:id="@+id/打分标准"
+                        android:layout_width="224dp"
+                        android:layout_height="wrap_content"
+                        android:text="打分标准"
+                        android:textColor="#000000"
+                        android:translationX="10sp"
+                        android:translationY="20sp" />
+
+                    <ImageView
+                        android:id="@+id/earphoto1"
+                        android:layout_width="23dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:scaleX="0.25"
+                        android:scaleY="0.25"
+                        android:translationX="10sp"
+                        app:srcCompat="@drawable/detail" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
